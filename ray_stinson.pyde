@@ -77,4 +77,4 @@ def setup():
     frames.reverse()
     for xpos, ypos, orientation, siz, nois in frames:
         butterfly.draw(xpos, ypos, siz, orientation, nois)
-    save("/tmp/binesh-rs.png")
+    save("imgs/binesh-rs.png")
